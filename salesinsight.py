@@ -1,3 +1,11 @@
+"""
+SalesInsight PY - Analise de Dados de Vendas
+
+Modulo principal do projeto academico.
+Responsavel pela leitura, limpeza, transformacao,
+analise e exportacao dos dados de vendas.
+"""
+
 import csv
 import json
 import os
