@@ -103,3 +103,17 @@ Commits sugeridos:
 
 Projeto acadêmico desenvolvido para análise de dados de vendas utilizando Python e recursos da biblioteca padrão.
 
+## Resultados da execução
+
+Na execução de validação do projeto foram processados 200 registros iniciais.
+
+Após a limpeza dos dados:
+- 4 registros foram removidos por datas inválidas;
+- 13 registros foram removidos por ausência de valores críticos;
+- 183 registros permaneceram válidos.
+
+Principais resultados:
+- Receita total: R$ 1.290.346,30
+- Receita média por venda: R$ 7.051,07
+- Vendas acima da receita média: 70
+
