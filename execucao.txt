@@ -1,0 +1,81 @@
+============================================================
+ SALESINSIGHT PY - ANÁLISE DE DADOS DE VENDAS
+============================================================
+Dataset gerado com 200 registros em vendas.csv.
+
+=== INSPEÇÃO INICIAL DO DATASET ===
+Total de registros: 200
+Colunas: ['id_venda', 'data_venda', 'cliente', 'produto', 'categoria', 'regiao', 'quantidade', 'preco_unitario']
+Valores ausentes por coluna: {'id_venda': 0, 'data_venda': 0, 'cliente': 0, 'produto': 0, 'categoria': 0, 'regiao': 0, 'quantidade': 10, 'preco_unitario': 4}
+Primeiros registros:
+{'id_venda': '1', 'data_venda': '2025-05-21', 'cliente': 'cliente#016', 'produto': 'Mouse', 'categoria': 'Perifericos', 'regiao': 'Sudeste', 'quantidade': '2', 'preco_unitario': '102.9'}
+{'id_venda': '2', 'data_venda': '2025-09-16', 'cliente': 'Cliente_039', 'produto': 'Notebook', 'categoria': 'Computadores', 'regiao': 'Norte', 'quantidade': '', 'preco_unitario': '3204.57'}
+{'id_venda': '3', 'data_venda': '2025-03-23', 'cliente': 'Cliente_045', 'produto': 'Tablet', 'categoria': 'Celulares', 'regiao': 'Centro-Oeste', 'quantidade': '1', 'preco_unitario': '1939.76'}
+{'id_venda': '4', 'data_venda': '2025-11-06', 'cliente': 'Cliente_017', 'produto': 'Notebook', 'categoria': 'Computadores', 'regiao': 'Norte', 'quantidade': '6', 'preco_unitario': '3864.87'}
+{'id_venda': '5', 'data_venda': '2025-07-05', 'cliente': 'Cliente_037', 'produto': 'Tablet', 'categoria': 'Celulares', 'regiao': 'Sul', 'quantidade': '10', 'preco_unitario': '2008.14'}
+
+=== RELATÓRIO DE LIMPEZA ===
+Registros iniciais: 200
+Removidos por data inválida: 4
+Removidos por valores ausentes: 13
+Registros finais: 183
+
+=== POR MÊS ===
+Mês | Receita | Quantidade | Vendas
+01 | R$ 120,866.25 | 92 | 15
+02 | R$ 73,895.74 | 70 | 12
+03 | R$ 123,869.23 | 98 | 18
+04 | R$ 80,636.64 | 48 | 7
+05 | R$ 132,080.62 | 104 | 19
+06 | R$ 106,534.48 | 95 | 15
+07 | R$ 106,667.30 | 84 | 14
+08 | R$ 85,790.38 | 72 | 12
+09 | R$ 84,081.59 | 89 | 17
+10 | R$ 110,865.86 | 72 | 17
+11 | R$ 160,297.77 | 136 | 23
+12 | R$ 104,760.44 | 71 | 14
+
+=== TOP 5 PRODUTOS ===
+Notebook: R$ 374,174.85
+Tablet: R$ 335,335.83
+Smartphone: R$ 303,255.94
+Monitor: R$ 169,554.67
+Headset: R$ 48,368.37
+
+=== POR CATEGORIA ===
+Celulares: R$ 638,591.77
+Computadores: R$ 543,729.52
+Perifericos: R$ 108,025.01
+
+=== POR REGIÃO ===
+Nordeste: R$ 366,321.23 | Ticket médio: R$ 8,721.93
+Norte: R$ 299,917.37 | Ticket médio: R$ 7,140.89
+Centro-Oeste: R$ 244,586.97 | Ticket médio: R$ 5,688.07
+Sul: R$ 228,249.66 | Ticket médio: R$ 6,521.42
+Sudeste: R$ 151,271.07 | Ticket médio: R$ 7,203.38
+
+=== TOP 10 CLIENTES ===
+Cliente_006: R$ 65,905.09 (Ouro)
+Cliente_036: R$ 63,433.04 (Ouro)
+Cliente_039: R$ 59,406.90 (Ouro)
+Cliente_020: R$ 58,459.54 (Ouro)
+Cliente_034: R$ 52,035.60 (Ouro)
+Cliente_009: R$ 50,827.96 (Ouro)
+Cliente_024: R$ 49,146.94 (Ouro)
+Cliente_019: R$ 40,731.05 (Ouro)
+Cliente_047: R$ 38,291.74 (Ouro)
+Cliente_012: R$ 38,111.80 (Ouro)
+
+=== ESTATÍSTICAS GERAIS ===
+total_registros_validos: 183
+receita_total_geral: 1290346.3
+receita_media_por_venda: 7051.07
+vendas_acima_da_media: 70
+clientes_unicos: 58
+clientes_bronze: 9
+clientes_prata: 14
+clientes_ouro: 35
+
+JSON gravado e lido com sucesso: {'total_registros_validos': 183, 'receita_total_geral': 1290346.3, 'receita_media_por_venda': 7051.07, 'vendas_acima_da_media': 70, 'clientes_unicos': 58, 'clientes_bronze': 9, 'clientes_prata': 14, 'clientes_ouro': 35}
+
+[CONCLUÍDO] Fluxo finalizado com sucesso.
