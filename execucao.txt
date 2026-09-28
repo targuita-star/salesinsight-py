@@ -79,3 +79,4 @@ clientes_ouro: 35
 JSON gravado e lido com sucesso: {'total_registros_validos': 183, 'receita_total_geral': 1290346.3, 'receita_media_por_venda': 7051.07, 'vendas_acima_da_media': 70, 'clientes_unicos': 58, 'clientes_bronze': 9, 'clientes_prata': 14, 'clientes_ouro': 35}
 
 [CONCLUÍDO] Fluxo finalizado com sucesso.
+Status da validacao: execucao concluida com sucesso.
