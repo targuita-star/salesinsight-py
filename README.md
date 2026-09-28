@@ -99,10 +99,7 @@ Commits sugeridos:
 6. `feat: implementa exportacao de resultados em csv e json`
 7. `docs: atualiza readme com instrucoes e conceitos`
 
-## Vídeo de demonstração
+## Status do projeto
 
-Inserir aqui o link do vídeo após a gravação.
+Projeto acadêmico desenvolvido para análise de dados de vendas utilizando Python e recursos da biblioteca padrão.
 
-## Autor
-
-Alexander Balbas Ferreira
