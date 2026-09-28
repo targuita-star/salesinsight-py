@@ -16,3 +16,13 @@
 - [ ] Criar branches e commits
 - [ ] Gravar vídeo de até 5 minutos
 - [ ] Enviar links no AVA
+
+## Andamento
+
+- [x] Estrutura do projeto criada
+- [x] Dataset de vendas disponível
+- [x] Limpeza e validação dos dados
+- [x] Criação das colunas derivadas
+- [x] Cálculo das métricas
+- [x] Segmentação de clientes
+- [x] Exportação dos resultados
